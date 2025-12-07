@@ -4,7 +4,7 @@ title: Consumption By Industry Over Time
 toc: false
 ---
 
-# Consumption By Industry Over Time 💸📈
+# Consumption By Industry Over Time
 
 <!-- Load and transform the data -->
 
@@ -35,7 +35,6 @@ toc: false
 
 ---
 
-<br>
 <!-- Plot of launch history -->
 <h1>Visualization: Consumption, Wealth, and Income Trends</h1>
 <p>The dashboard displays three key visualizations designed to show long term patterns in consumer spending, wealth accumulation, and industry level sales. Together, these visualizations demonstrate how consumption has risen steadily, and in some cases exponentially, over the past several decades.</p>
@@ -117,7 +116,7 @@ In 1950, households held roughly 3 times more wealth than consumption spending. 
     <li>Professional & Commercial Equipment</li>
   </ul>
 </li><br>
-<li><b>Cateogires with noticeable upward trends include:</b><br>
+<li><b>Categories with noticeable upward trends include:</b><br>
   <ul>
     <li>Drugs and Druggist Sundries (Increase from 50,169 to 86,117) (172% increase)</li>
     <li>Petroleum & Petroleum Products (Increase from 36,303 to 53,819) (148% increase) </li>
@@ -157,13 +156,6 @@ This line chart shows proportional growth, indicating how consumption is fundame
 <p>The monthly stacked bar chart shows the broad scope and consistency of consumption across sectors. This format helps users quickly identify which industries dominate consumer spending, compare seasonal fluctuations in purchasing behavior, and see gradual increases in overall consumption volume year over year</p>
 <p>Color coding is used to differentiate industries, allowing viewers to explore general trends in consumer behavior while maintaining clarity across dozens of categories.</p>
 <br>
-
-### Software Used: Tableau
-
-<p>We wanted to use a software that would allow us to explore a lot of variables in a way which was both aesthetically appealing and allowed interactive elements. Tableau was the clear choice for this as Observable framework was good for smaller datasets with less variables, and ArgisOnline is better suited for visualizing geographic data.
-</p>
-<p>
-Overall, Tableau's interactive features allow users to explore specific periods, industries, or relationships between variables, making it well-suited for analyzing complex topics like overconsumption.</p>
 
 ---
 

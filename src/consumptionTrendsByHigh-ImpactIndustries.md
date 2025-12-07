@@ -1,16 +1,20 @@
 ---
-theme: dashboard
+theme: [wide, coffee]
 title: Consumption Trends By High-Impact Industries
-toc: true
+toc: false
 ---
 
 # Consumption Trends By High-Impact Industries
 
 This section focuses on industries whose consumption patterns contribute most to ecological damage. It also compares how each industry's emissions compares to their economic output. By highlighting sectors with rising impact, we aim to identify where interventions could most effectively reduce waste and overconsumption. These insights help prioritize attention on industries that are driving the greatest environmental harm and thus overconsumption trends. 
 
-## Visualization: Co2 emissions of Industries, 2006 - 2022
+---
+
+<h1>Visualization: Co2 Emissions of Industries, 2006 - 2022</h1>
 
 <div class='tableauPlaceholder' id='viz1763954991997' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject-Question3_17639520144790&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject-Question3_17639520144790&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject-Question3_17639520144790&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1763954991997');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+---
 
 ## Analysis
 
@@ -48,14 +52,19 @@ A few patterns that stand out:
 
 **2. Manufacturing is the most efficient industry,** generating the highest GDP, $57,114,769, while maintaining relatively low emissions per unit output, 257 metric tons per dollar. The data indicates that Manufacturing has adpated better to efficiency demands. Most people tend to associate overconsumption primarily with fast fashion, since it’s a highly visible trend and often discussed in the media. However, the data shows that there are other industries and consumption patterns that far surpass manufacturing in terms of emissions and ecological impact. Thus, it is important to investigate other industries that receive less attention yet contribute significantly to emissions. 
 
+---
+
 ## Design Rationale
 The overall dashboard displays three visualization types to reveal patterns in consumption trends across industries. Each visualization was selected to highlight a different dimension of data and provide a summary of how consumption impacts the environment and where change is most urgently needed.
 
-**1. Stacked Bar Chart:** A stacked bar chart was chosen because it clearly compares absolute emissions across industries, making it easy to see which sectors contribute the most overall. This visualization establishes a baseline understanding of the scale of emissions while also breaking down contributions from specific sub‑sectors within each industry. By stacking categories, it highlights not only total emissions but also the internal composition of each industry, offering a more nuanced view of where ecological damage originates.
+1. **Stacked Bar Chart**: A stacked bar chart was chosen because it clearly compares absolute emissions across industries, making it easy to see which sectors contribute the most overall. This visualization establishes a baseline understanding of the scale of emissions while also breaking down contributions from specific sub‑sectors within each industry. By stacking categories, it highlights not only total emissions but also the internal composition of each industry, offering a more nuanced view of where ecological damage originates.
 
-**2. Line Chart:** A line chart was selected to capture changes over time, showing whether industries are improving or worsening in their emissions. This format highlights growth patterns, peaks, and declines, revealing long‑term trends and identifying industries with accelerating damage.
+2. **Line Chart**: A line chart was selected to capture changes over time, showing whether industries are improving or worsening in their emissions. This format highlights growth patterns, peaks, and declines, revealing long‑term trends and identifying industries with accelerating damage.
 
-**3. Scatterplot:** A scatter plot was used to normalize emissions against GDP, revealing which industries are most polluting relative to their economic value. This visualization uncovers inefficiencies and highlights sectors where emissions are disproportionately high compared to their contribution, guiding future policy and sustainability efforts.
+3. **Scatterplot**: A scatter plot was used to normalize emissions against GDP, revealing which industries are most polluting relative to their economic value. This visualization uncovers inefficiencies and highlights sectors where emissions are disproportionately high compared to their contribution, guiding future policy and sustainability efforts.
 
-## Data Source
-CO2 Emissions by Sectors: https://www.kaggle.com/datasets/avinashsingh004/co2-emissions-by-sectorss
+---
+
+## Citations
+
+AvinashSingh004. (n.d.). CO2 Emissions by Sectors [Data set]. Kaggle. https://www.kaggle.com/datasets/avinashsingh004/co2-emissions-by-sectors

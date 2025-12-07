@@ -1,16 +1,20 @@
 ---
-theme: dashboard
+theme: [wide, coffee]
 title: Individual Consumption Behaviors
-toc: true
+toc: false
 ---
 
-# Understanding Individual Consumption
+# Individual Consumption Behaviors
 
 Individual consumption plays a critical role in shaping both economic activity and environmental impact. How people spend, travel, eat, heat their homes, and manage waste all contribute to their ecological footprint, particularly through carbon emissions. Although consumption is often framed as a personal choice, it is also shaped by structural conditions such as income levels, infrastructure, energy availability, and lifestyle norms. In high-income countries, a relatively small number of daily behaviors, from transportation choices to home energy use, account for a disproportionate share of carbon emissions. By examining patterns in spending, income, and lifestyle behaviors, we can better understand how individual actions contribute to broader economic trends and environmental outcomes. The following visualizations provide insight into these relationships: the first situates personal spending within the economic landscape, while the latter two break down how specific lifestyle behaviors relate to carbon emissions.
 
-## Visualization
+---
+
+<h1>Visualization: Individual Lifestyle Behaviors and Emissions</h1>
 
 <div class='tableauPlaceholder' id='viz1763930944326' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;AnnualConsumerExpendituresintheU_S_&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AnnualConsumerExpendituresintheU_S_&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;AnnualConsumerExpendituresintheU_S_&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1763930944326');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1227px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+---
 
 ## Analysis
 
@@ -26,6 +30,8 @@ This heatmap table ranks lifestyle categories by their average carbon emissions,
 
 This bar chart presents a breakdown of carbon emissions across the specific subgroups of whichever lifestyle category the user selects. While Visualization 2 shows which lifestyle categories are most strongly associated with overall emissions, this visualization reveals how much variation exists within each category. For example, Primary Transportation Mode displays notable variation: individuals who rely on private vehicles have meaningfully higher emissions than those who walk, bike, or use public transit, pointing to clear opportunities for targeted behavior change within this category. In contrast, other categories such as Social Activity Frequency show relatively minor differences between subgroups, implying that modifying behaviors within these domains would have a far smaller impact on emissions. These contrasts highlight the importance of identifying which lifestyle behaviors contain meaningful internal variation—because encouraging movement toward lower-emission subgroups in those categories can yield more substantial reductions than attempting to intervene in areas where subgroup differences are minimal.
 
+---
+
 ## Design Rationale
 
 The dashboard integrates three visualizations to provide a multi-layered understanding of individual consumption patterns and their relationship to carbon emissions.
@@ -36,23 +42,14 @@ The dashboard integrates three visualizations to provide a multi-layered underst
 
 3. **Bar Chart**: A bar chart was used because it clearly displays variation within a single behavioral category and allows for easy comparison of subgroup emissions. This design enhances the interactivity of the dashboard by letting users select a specific lifestyle behavior and immediately observe how its subgroups differ. The chart reveals where meaningful internal variation exists, such as in primary transportation mode, where private vehicle users emit far more than public transit users, and where subgroup differences are minimal, such as in social activity frequency. Including this level of detail helps viewers assess whether personal behavioral interventions should target entire lifestyle categories or focus on specific subgroups where the largest emission reductions are possible.
 
+---
 
-## Data
-<ul>
-  <li>
-    U.S. Personal Expenditures by State (Kaggle):
-    <a href="https://www.kaggle.com/datasets/davidbroberts/us-personal-expenditures-by-state-19972019?resource=download" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/davidbroberts/us-personal-expenditures-by-state-19972019?resource=download</a>
-  </li>
-  <li>
-    Average Income and Rent in the United States (Kaggle):
-    <a href="https://www.kaggle.com/datasets/shahriarkabir/average-income-and-rent-in-united-states" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/shahriarkabir/average-income-and-rent-in-united-states</a>
-  </li>
-  <li>
-    U.S. Population by State (Kaggle):
-    <a href="https://www.kaggle.com/datasets/alexandrepetit881234/us-population-by-state" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/alexandrepetit881234/us-population-by-state</a>
-  </li>
-  <li>
-    Individual Carbon Footprint Calculation (Kaggle):
-    <a href="https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation</a>
-  </li>
-</ul>
+## Citations
+
+Robertts, D. (n.d.). U.S. Personal Expenditures by State 1997–2019 [Data set]. Kaggle. https://www.kaggle.com/datasets/davidbroberts/us-personal-expenditures-by-state-19972019?resource=download
+
+Kabir, S. (n.d.). Average Income and Rent in the United States [Data set]. Kaggle. https://www.kaggle.com/datasets/shahriarkabir/average-income-and-rent-in-united-states
+
+Petit, A. (n.d.). U.S. Population by State [Data set]. Kaggle. https://www.kaggle.com/datasets/alexandrepetit881234/us-population-by-state
+
+Duman, M., Yıldız, B., Baytar, H., Bayindir, E., & Gulasar, S. (n.d.). Individual Carbon Footprint Calculation [Data set]. Kaggle. https://www.kaggle.com/datasets/dumanmesut/individual-carbon-footprint-calculation
