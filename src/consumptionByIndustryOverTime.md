@@ -177,6 +177,7 @@ Together, these patterns show that overconsumption is a systemic issue with cons
 ---
 
 ## Citations
+Desykaadji. (n.d.). Real Consumption Expenditure for the U.S. 1947–2000 [Dataset]. Kaggle. https://www.kaggle.com/datasets/desykaadji/real-consumption-expenditure-for-the-us19472000?resource=download&select=Real+Consumption+Expenditure+for+the+US.xlsx
 
 Bureau of Economic Analysis. (2025, October 30). Personal income and outlays, August 2025. U.S. Department of Commerce. https://www.bea.gov/news/2025/personal-income-and-outlays-august-2025
 
